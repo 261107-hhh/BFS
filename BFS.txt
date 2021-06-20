@@ -41,7 +41,6 @@ public class Main {
 
     int src = Integer.parseInt(br.readLine());
 
-    // write your code here
     ArrayDeque<Pair> queue = new
     ArrayDeque<>();
     queue.add(new Pair (src, src+""));
@@ -63,14 +62,3 @@ public class Main {
     }
   }
 }
-
-
-
-
-
-
-
-
-
-
-
